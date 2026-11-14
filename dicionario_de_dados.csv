@@ -1,0 +1,25 @@
+coluna,tipo,descricao
+id_cliente,texto,Identificador sintético do cliente (sem dados pessoais)
+data_cadastro,data,Data de início da assinatura
+tempo_assinatura_meses,numérica,Meses de assinatura até a data de corte (01/01/2026)
+idade,numérica,Idade em anos (1% nulos)
+faixa_renda,categórica,Faixa de renda declarada (3% nulos)
+uf,categórica,Unidade da federação
+plano,categórica,"Básico, Padrão, Premium ou Família"
+valor_mensal,numérica,Preço mensal do plano em R$
+ciclo_faturamento,categórica,Mensal ou Anual
+metodo_pagamento,categórica,Forma de pagamento principal
+origem_cadastro,categórica,Canal de aquisição
+dispositivo_principal,categórica,Dispositivo mais usado (2% nulos)
+qtd_perfis,numérica,Perfis criados na conta
+teve_promocao,binária,1 = entrou com desconto promocional
+score_engajamento,numérica,Score 0-100 calculado nos 30 dias ANTES da data de corte
+variacao_engajamento_30d,numérica,"Score dos últimos 30 dias menos o score dos 30 dias anteriores (nulo se < 1,5 mês de casa)"
+dias_ativos_30d,numérica,Dias com pelo menos uma reprodução nos últimos 30 dias
+horas_assistidas_30d,numérica,Horas assistidas nos últimos 30 dias (contém maratonas extremas)
+generos_distintos_30d,numérica,Gêneros distintos assistidos nos últimos 30 dias
+reclamacoes_abertas,numérica,Reclamações em aberto na data de corte
+tickets_suporte_90d,numérica,Chamados de suporte nos 90 dias anteriores à data de corte
+falhas_pagamento_90d,numérica,Cobranças recusadas nos 90 dias anteriores à data de corte
+mudancas_plano_12m,numérica,Trocas de plano nos últimos 12 meses
+cancelou_60d,ALVO,1 = cancelou nos 60 dias APÓS a data de corte; 0 = permaneceu
