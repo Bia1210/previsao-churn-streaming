@@ -1,4 +1,4 @@
-# Previsão de churn em streaming
+# ├── analisar_churn_clientes.ipynb     # notebook com o passo a passo
 
 Projeto de estudo de Machine Learning: prever quais clientes de um serviço de streaming vão cancelar nos próximos 60 dias, para priorizar ações de retenção.
 
