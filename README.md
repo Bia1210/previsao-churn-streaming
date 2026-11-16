@@ -1,4 +1,6 @@
-# ├── analisar_churn_clientes.ipynb     # notebook com o passo a passo
+# # Previsão de churn em streaming
+
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bia1210/previsao-churn-streaming/blob/main/analisar_churn_clientes.ipynb)
 
 Projeto de estudo de Machine Learning: prever quais clientes de um serviço de streaming vão cancelar nos próximos 60 dias, para priorizar ações de retenção.
 
