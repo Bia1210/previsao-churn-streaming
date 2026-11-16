@@ -1,4 +1,4 @@
-# # Previsão de churn em streaming
+ # Previsão de churn em streaming
 
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bia1210/previsao-churn-streaming/blob/main/analisar_churn_clientes.ipynb)
 
